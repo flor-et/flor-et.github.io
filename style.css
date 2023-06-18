@@ -6,7 +6,7 @@ body {
 
 #content{
     margin-top: 5vh;
-    width: 80vw;
+    width: 40vh;
     min-height: 80vh;
     background: rgba(255,200,200, 0.8);
     border: rgb(255,150,150) solid 10px;
@@ -36,7 +36,7 @@ p{
 .link{
     border: solid red 1px;
     padding: 2vh;
-    width: 50vw;
+    width: 200px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
