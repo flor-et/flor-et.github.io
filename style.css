@@ -1,15 +1,19 @@
 body {
     margin: 0;
+    background-image: url("/pattern.png");
+    background-size: 100px;
 }
 
 #content{
     margin-top: 5vh;
     width: 80vw;
     min-height: 80vh;
-    justify-content: space-between;
+    background: rgba(255,200,200, 0.8);
+    border: rgb(255,150,150) solid 10px;
+    padding-top: 5vh;
 }
 
-#content,#profile,body{
+#content,#profile,body,#links{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,19 +24,31 @@ body {
     border-radius: 150px;
 }
 
+#profile{
+    margin-bottom: 5vh;
+}
+
 p{
     height: 0.5vh;
+    color: black;
 }
 
 .link{
     border: solid red 1px;
     padding: 2vh;
-    width: 100%;
+    width: 50vw;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 1vh;
+    
 }
 
 .linkIMG{
     width: 5vh;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
 }
