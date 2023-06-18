@@ -46,6 +46,7 @@ p{
 
 .linkIMG{
     width: 5vh;
+    filter: brightness(0%);
 }
 
 a{
