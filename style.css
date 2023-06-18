@@ -2,6 +2,15 @@ body {
     margin: 0;
 }
 
+#content{
+    position: absolute;
+    left:0;
+    right:0;
+    margin: auto;
+    top: 1vh;
+    width: 80vw;
+}
+
 #pfp{
     width: 25vw;
     border-radius: 100px;
