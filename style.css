@@ -12,6 +12,7 @@ body {
     border: rgb(255,150,150) solid 10px;
     border-radius: 25px;
     padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 #content,#profile,body,#links{
