@@ -58,3 +58,13 @@ a{
     color: inherit;
     text-decoration: inherit;
 }
+
+#footer{
+    height: 10vh;
+    width: 100vw;
+    font-color: pink;
+    background: rgba(150,255,150);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
