@@ -58,14 +58,3 @@ a{
     color: inherit;
     text-decoration: inherit;
 }
-
-#footer{
-    height: 10vh;
-    width: 100vw;
-    background: rgba(150,255,150);
-    border-top: rgba(123,255,87) 5px solid;
-    opacity: 0.6;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
