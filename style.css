@@ -1,3 +1,7 @@
+html{
+    background: rgb(229,255,251);
+}
+
 body {
     margin: 0;
     background-image: url("pattern.png");
